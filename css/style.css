@@ -1,0 +1,387 @@
+html, body {
+height: 100%;
+overflow: hidden;
+margin: 0;
+padding: 0;
+background-color: #fff;
+font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+#main { 
+overflow: hidden;
+height: 100%;
+}
+
+#sidebar {
+overflow: hidden;
+width: 14%;
+height: 100%;
+padding: 0;
+position: relative;
+background-color: #006633;
+-webkit-box-shadow:inset -10px -2px 30px -10px #000000;
+box-shadow:inset -10px -2px 30px -10px #000000;
+}
+#sidebar h2 {
+margin: 0;
+color: white;
+margin: 0;
+padding: 26px;
+}
+
+nav {
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+ 
+.menu-item {
+  width: 100%; 
+  margin:0;
+  margin-top: -1px;
+  padding:0;
+}
+
+.menu-item div {
+    color: white;
+    text-decoration: none;
+    
+    border: 0;
+    outline:none;
+    text-align: left;
+    font-size: 15;
+    color: white;
+    background-color: #00994d;
+    padding: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    /* width: 100%; */
+    border-top: 1px solid #00331a;
+    border-bottom: 1px solid #00331a;
+    border-left: 1px solid #00331a;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.menu-item ul li {
+    color: white;
+    /* display: block; */
+    text-decoration: none;
+    
+    position: relative;
+    left: 100%;
+    
+    border: 0;
+    outline:none;
+    text-align: left;
+    font-size: 15;
+    color: white;
+    background-color: #00994d;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* width: 100%; */
+    border-top: 1px solid #00331a;
+    border-bottom: 1px solid #00331a;
+    border-left: 1px solid #00331a;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.menu-item ul li:hover {
+
+	-webkit-transform: translateX(-70%);
+	-moz-transform:  translateX(-70%);
+	-ms-transform:  translateX(-70%);
+	transform:  translateX(-70%);
+}
+
+ .menu-item div:hover {
+	-webkit-transform: translateX(15%);
+	-moz-transform:  translateX(15%);
+	-ms-transform:  translateX(15%);
+	transform:  translateX(15%);
+}
+
+.menu-item ul {
+  font-size: 13px;
+  height: auto;
+  max-height: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0px;
+   
+  /*Animation*/
+  -webkit-transition: max-height 1s ease;
+     -moz-transition: max-height 1s ease;
+       -o-transition: max-height 1s ease;
+      -ms-transition: max-height 1s ease;
+          transition: max-height 1s ease;
+}
+
+.expandnav ul {
+  max-height: 700px;
+}
+
+.slideinleft {
+    -webkit-animation-duration:1s;
+    animation-duration:1s;
+    
+	-webkit-transform: translateX(-85%);
+	-moz-transform:  translateX(-85%);
+	-ms-transform:  translateX(-85%);
+	transform:  translateX(-85%);
+}
+
+#boxad {
+    position: relative;
+    top: 60%;
+}
+
+#menulist{
+list-style-type: none;
+width: 100%;
+margin-left: -40px;
+float: left;
+display: block;
+}
+#menulist li {
+display: block;
+margin: 0;
+padding: 0;
+}
+#menulist button{
+border: 0;
+outline:none;
+margin-top:-4px;
+text-align: left;
+font-size: 15;
+color: white;
+background-color: #00994d;
+padding: 10px;
+padding-top: 14px;
+padding-bottom: 14px;
+width: 100%;
+border-top: 1px solid #00331a;
+border-bottom: 1px solid #00331a;
+border-left: 1px solid #00331a;
+-webkit-transition: all 0.3s;
+-moz-transition: all 0.3s;
+transition: all 0.3s;
+}
+#container {
+overflow: hidden;
+width: 86%;
+height: 100%;
+float: right;
+background: url(../images/bwsouthside.jpg) no-repeat;
+ background-size: 100%;
+}
+#head {
+height: 80px;
+width: 100%;
+z-index: -1;
+background-color: #FFCC33;
+}
+#rHead {
+float: right;
+margin-right: 30px;
+margin-top: 10px;
+width: 225px;
+height: 60px;
+background: url('../images/PigRoomListLogo.png') center top no-repeat;
+}
+#add2Room {
+float: left;
+margin-top: 23px;
+margin-left: 20px;
+width: 32px;
+height: 32px;
+background: url('../images/add.png') center top no-repeat;
+}
+#add2Room:hover {
+background: url('../images/add_hover.png') center top no-repeat;
+}
+#AddToRoomDiv{
+float: left;
+margin-left: 20px;
+margin-top: 27px;
+}
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 16px solid transparent;
+	border-bottom: 16px solid transparent; 
+	
+	border-right:16px solid white; 
+}
+
+#addtiparrow {
+    position:relative;
+    top: 23px;
+    left: 60px;
+}
+#addtipbox {
+    position: relative;
+    top: -17px;
+    left: 75px;
+    width: 350px;
+    height: 20px;
+    padding: 13px;
+    padding-left: 40px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    border-left: 0;
+    background-color: #fff;
+}
+#addtipbox h3 {
+    margin: 0;
+}
+
+#table {
+    position: absolute;
+    width: 82.3%;
+    top: 100px;
+    left: 17%;
+    height: 86%
+}
+
+
+.roomtable {
+    width: 80%;
+        background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(255, 255, 255, .7);
+}
+.roomtable, th, td {
+    border:1px solid black;
+    border-collapse:collapse;
+}
+.bedCol {
+    width: 19em;
+}
+#floorCol {
+    width: 2em;
+}
+#roomCol {
+    width: 3em;
+}
+
+#bottomad {
+    position: absolute;
+    bottom:0;
+}
+
+#homepage h1 {
+    margin: 0;
+    position: relative;
+    margin-top: 2%;
+    left: 5%;
+}
+
+#homepage p {
+    margin: 0;
+    position: relative;
+    margin-top: 3%;
+    left: 8%;
+}
+
+#homepage iframe {
+    position: relative;
+    left: 8%;
+    margin: 0;
+    margin-top: 3%;
+    -webkit-box-shadow: -5px -2px 30px 0 #000000;
+    box-shadow: -5px -2px 30px 0 #000000;
+}
+
+#linkad {
+    position: absolute;
+    bottom: 22px;
+    left: 20%;
+}
+
+#faqpage {
+    position: relative;
+    left: 3%;
+    padding: 2%;
+    margin: 0;
+    margin-top: 1%;
+    width: 50%;
+    height: 80%;
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't
+                                    support rgba */
+    background: rgba(255, 255, 255, .7);
+    border:1px solid black;
+}
+
+.faqtable td,th{
+    border:none;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+}
+.form iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.wiggleanim:hover{
+-webkit-animation-name: wiggleAnimation;
+-webkit-animation-duration:0.7s;
+-webkit-animation-iteration-count: 1;
+-webkit-animation-timing-function: ease;
+-webkit-animation-fill-mode: forwards;
+
+animation-name: wiggleAnimation;
+animation-duration:0.7s;
+animation-iteration-count: 1;
+animation-timing-function: ease;
+animation-fill-mode: forwards;
+}
+@-webkit-keyframes wiggleAnimation { 
+0% {
+backface-visibility: hidden;
+-webkit-transform: rotate(0deg);
+}
+25% {
+backface-visibility: hidden;
+-webkit-transform: rotate(20deg);
+}
+75% {
+backface-visibility: hidden;
+-webkit-transform: rotate(-20deg);
+}
+100% {
+backface-visibility: hidden;
+-webkit-transform: rotate(0deg);
+}
+}
+@-moz-keyframes wiggleAnimation {
+0% {
+backface-visibility: hidden;
+transform: rotate(0deg);
+}
+25% {
+backface-visibility: hidden;
+transform: rotate(20deg);
+}
+75% {
+backface-visibility: hidden;
+transform: rotate(-20deg);
+}
+100% {
+backface-visibility: hidden;
+transform: rotate(0deg);
+}
+}
