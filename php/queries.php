@@ -1,6 +1,6 @@
 <?
-$user = "root";
-$pass = "";
+$user = "jason";
+$pass = "089797";
 
 function execute_query($query) {
 	global $conn;
@@ -17,9 +17,9 @@ function addToFloor() {
 
 		echo "".$name." ".$floor." ".$building;
 
-		$query = "INSERT INTO ".$building." (name, floor) VALUES(:name, :floor)";
+		$query = "INSERT INTO ".$building." (floor, name) VALUES(:floor, :name)";
 		$stmt = $conn->prepare($query);
-	    $stmt->execute(array(':name' => $name, ':floor' => $floor));
+	    $stmt->execute(array(':floor' => $floor, ':name' => $name));
   }
 }
 

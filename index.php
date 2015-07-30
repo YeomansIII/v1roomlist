@@ -37,7 +37,7 @@
       <div id="container">
         <div id="head">
           <div id="rHead">
-            
+
           </div>
            <div id="add2Room"></div>
             <div id="addtip">
@@ -51,7 +51,7 @@
         <div id="table" class="default-skin" style="display:none">
 
         </div>
-        
+
         <div id="homepage">
             <h1>Current Building With Most Names: Essex</h1>
             <h1>Featured Video: Aerial Mason</h1>
@@ -65,10 +65,10 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-        
+
         <div id="faqpage" class="default-skin" style="display:none">
             <h1>Freshman's Frequently Asked Questions</h1>
-        
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -82,7 +82,7 @@
                 </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -96,7 +96,7 @@
                     </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -110,7 +110,7 @@
                 </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -124,7 +124,7 @@
                 </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -138,7 +138,7 @@
                 </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -152,7 +152,7 @@
                 </tr>
                 <tr><hr></tr>
             </table>
-            
+
             <table class="faqtable">
                 <tr>
                     <td><h2>Q:</h2></td>
@@ -167,15 +167,15 @@
                 <tr><hr></tr>
             </table>
         </div>
-        
-        
+
+
         <div id="bugform" class="form" style="display:none">
             <iframe src="https://docs.google.com/forms/d/1n8CvirmBzbAOKnVqL1aVeOZDe84z77b1axCvaB_X4Jw/viewform?embedded=true?hl=en" width="auto" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
         <div id="featureform" class="form" style="display:none">
             <iframe src="https://docs.google.com/forms/d/1i9EAO3jzRMixUR7Qb0-WjMc80WQgMARMfwmIIQaAAfY/viewform?embedded=true?hl=en" width="auto" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
-        
+
       </div>
       <div id="sidebar">
         <h2>
@@ -191,7 +191,7 @@
             <div id="class2" class="menu-item">
                 <div>Class of 2018</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
-                    <li>Amherst</li>
+                    <li>The_Complex</li>
                     <li>Brunswick</li>
                     <li>Carroll</li>
                     <li>Dickenson</li>
