@@ -1,4 +1,4 @@
-<?
+<?php
 $user = "jason";
 $pass = "089797";
 
