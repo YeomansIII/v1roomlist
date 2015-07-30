@@ -59,11 +59,11 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     echo 'ERROR: ' . $e->getMessage();
 }
 
-addToRoom();
+// addToRoom();
 if(isset($_POST['action']) && !empty($_POST['action'])) {
     $action = $_POST['action'];
     switch($action) {
-        case 'addToRoom' : addToRoom();break;
+        case 'addToFloor' : addToFloor();break;
         case 'getRoomNumbers' : getRoomNumbers();break;
         case 'getTable' : getTable();break;
     }
