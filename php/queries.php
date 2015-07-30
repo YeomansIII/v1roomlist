@@ -62,7 +62,7 @@ try {
 
 echo 'Inside Query';
 
-addToFloor();
+//addToFloor();
 if(isset($_POST['action']) && !empty($_POST['action'])) {
     $action = $_POST['action'];
     switch($action) {
