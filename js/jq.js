@@ -158,7 +158,7 @@ $(document).ready(function() {
       console.log("Else");
       var name = $("input[id$=nameTextbox]").val(),
         floor = $("select[id$=floorTextbox]").val(),
-        building = $("select[id$=buildingTextbox]").val()
+        building = $("select[id$=buildingTextbox]").val().replace(/ /g, "_");
       console.log('Building: ' + building + '  Floor: ' + floor + '   Name: ' + name);
 
       $("#AddToRoomDiv").remove();
