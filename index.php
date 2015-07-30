@@ -191,7 +191,7 @@
             <div id="class2" class="menu-item">
                 <div>Class of 2018</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
-                    <li>The_Complex</li>
+                    <li>The Complex</li>
                     <li>Brunswick</li>
                     <li>Carroll</li>
                     <li>Dickenson</li>
