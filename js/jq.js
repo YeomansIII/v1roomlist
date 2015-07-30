@@ -15,7 +15,7 @@ function getTable(building) {
                 $('#table').html(output);
                 $('#table').show();
                 $('#table').customScrollbar();
-            }    
+            }
     });
 }
 
@@ -41,7 +41,7 @@ $(document).ready(function () {
             $('#class'+i+' ul li').removeClass('slideinleft');
         }
     });
-    
+
     $('#homebtn').click(function () {
         $('#featureform').hide();
         $('#bugform').hide();
@@ -49,7 +49,7 @@ $(document).ready(function () {
         $('#faqpage').hide();
         $('#homepage').show();
     });
-    
+
     $('#faqbtn').click(function () {
         $('#featureform').hide();
         $('#bugform').hide();
@@ -58,11 +58,11 @@ $(document).ready(function () {
         $('#faqpage').show();
         $('#faqpage').customScrollbar();
     });
-    
+
     $('.menu-item ul li').click(function () {
         console.log($(this).html());
        switch ($(this).html()) {
-           case "Amherst": getTable("Amherst");break;
+           case "The Complex": getTable("The_Complex");break;
            case "Brunswick": getTable("Brunswick");break;
            case "Carroll": getTable("Carroll");break;
            case "Dickenson": getTable("Dickenson");break;
@@ -83,10 +83,10 @@ $(document).ready(function () {
            case "Wilson": getTable("Wilson");break;
            case "Commonwealth": getTable("Commonwealth");break;
            case "Dominion": getTable("Dominion");break;
-           
+
            case "Submit a Bug": $('#homepage').hide();$('#table').hide();$('#featureform').hide();$('#bugform').show();break;
            case "Request a Feature": $('#homepage').hide();$('#table').hide();$('#bugform').hide();$('#featureform').show();break;
-       } 
+       }
     });
 
 
@@ -119,7 +119,7 @@ $(document).ready(function () {
 							$('#roomTextbox').removeAttr("disabled");
 						}
 					});
-				
+
             });
 			$("#add2Room").css({
 				"background" : "url('images/check-alt.png') center top no-repeat"
@@ -132,8 +132,8 @@ $(document).ready(function () {
 			bed = $("select[id$=bedTextbox]").val(),
 			building = $("select[id$=buildingTextbox]").val(),
 			room = $("select[id$=roomTextbox]").val();
-			
-			
+
+
 			$("#AddToRoomDiv").remove();
 			addToCount--;
 			$("#add2Room").css({
