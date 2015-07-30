@@ -159,6 +159,7 @@ $(document).ready(function() {
       var name = $("input[id$=nameTextbox]").val(),
         floor = $("select[id$=floorTextbox]").val(),
         building = $("select[id$=buildingTextbox]").val()
+      console.log('Building: ' + building + '  Floor: ' + floor + '   Name: ' + name);
 
       $("#AddToRoomDiv").remove();
       addToCount--;
@@ -167,7 +168,6 @@ $(document).ready(function() {
       });
       $("#add2Room").removeClass("wiggleanim");
       if ((name.length > 0) && (floor != "floor") && (building != "Building") && (name.toLowerCase().indexOf("penis") < 0) && (name.toLowerCase().indexOf("ass") < 0) && (name.toLowerCase().indexOf("yeomans") < 0) && (name.toLowerCase().indexOf("fuck") < 0) && (name.toLowerCase().indexOf("bitch") < 0) && (name.toLowerCase().indexOf("fag") < 0) && (name.toLowerCase().indexOf("faggot") < 0) && (name.toLowerCase().indexOf("asshole") < 0) && (name.toLowerCase().indexOf("nigga") < 0) && (name.toLowerCase().indexOf("nigger") < 0)) {
-        //if(name.length > 0) {
         console.log("Ajaxing");
         $.ajax({
           url: 'php/queries.php',
@@ -179,6 +179,7 @@ $(document).ready(function() {
           },
           type: 'post',
           success: function(output) {
+            console.log('Building: ' + building);
             getTable(building);
           }
         });
