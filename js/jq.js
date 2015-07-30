@@ -160,7 +160,7 @@ $(document).ready(function() {
         floor = $("select[id$=floorTextbox]").val(),
         building = $("select[id$=buildingTextbox]").val()
 
-        $("#AddToRoomDiv").remove();
+      $("#AddToRoomDiv").remove();
       addToCount--;
       $("#add2Room").css({
         "background": ""

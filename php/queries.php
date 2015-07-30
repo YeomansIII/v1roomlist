@@ -36,8 +36,9 @@ function getRoomNumbers() {
 
 function getTable() {
     $building = $_POST['building'];
+		echo 'Building Name: ' . $building;
     $query = "SELECT * FROM ".$building;
-	$result = execute_query($query);
+		$result = execute_query($query);
 
     echo '<h2>'.$building.'</h2> <h4 id="floorplans">Floorplans: <a href="http://housing.gmu.edu/halls/traditional/upload/Commons2.swf">Commons</a>  <a href="http://housing.gmu.edu/halls/traditional/upload/Presidents_Park_CS5_v2-31.swf">Presidents Park</a>  <a href="http://housing.gmu.edu/halls/suites/upload/Dominion-and-Commonwealth.swf">CO-DO</a></h4><table class="roomtable">
                 <tr>
@@ -52,14 +53,16 @@ function getTable() {
 
 
 try {
-global $conn;
-$conn = new PDO("mysql:host=localhost;dbname=quroom", $user, $pass);
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	global $conn;
+	$conn = new PDO("mysql:host=localhost;dbname=quroom", $user, $pass);
+	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
 
-// addToRoom();
+echo 'Inside Query';
+
+addToFloor();
 if(isset($_POST['action']) && !empty($_POST['action'])) {
     $action = $_POST['action'];
     switch($action) {
