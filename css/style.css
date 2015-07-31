@@ -12,7 +12,7 @@ html, body {
 }
 #sidebar {
   overflow: hidden;
-  width: 14%;
+  width: 210px;
   height: 100%;
   padding: 0;
   position: relative;
@@ -155,11 +155,11 @@ nav {
 }
 #container {
   overflow: hidden;
-  width: 86%;
+  width: calc(100% - 210px);
   height: 100%;
   float: right;
-  background: url(../images/bwsouthside.jpg) no-repeat;
-  background-size: 100%;
+  background: url(../images/quinnipiac_university.jpg) no-repeat;
+  background-size: cover;
 }
 #head {
   height: 80px;
