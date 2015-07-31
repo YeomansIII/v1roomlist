@@ -42,9 +42,9 @@
             <div id="class0" class="menu-item">
                 <div id="homebtn">Home</div> <!-- colored bar -->
             </div>
-            <div id="class1" class="menu-item">
-                <div id="faqbtn">FAQ</div> <!-- colored bar -->
-            </div>
+            <!-- <div id="class1" class="menu-item">
+                <div id="faqbtn">FAQ</div>
+            </div> -->
             <div id="class2" class="menu-item">
                 <div>Class of 2019</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
