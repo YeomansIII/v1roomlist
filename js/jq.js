@@ -13,7 +13,7 @@ function getTable(building) {
       $('#featureform').hide();
       $('#table').html(output);
       $('#table').show();
-      $('#table').customScrollbar();
+      //$('#table').customScrollbar();
     }
   });
 }
@@ -54,7 +54,7 @@ $(document).ready(function() {
     $('#table').hide();
     $('#homepage').hide();
     $('#faqpage').show();
-    $('#faqpage').customScrollbar();
+    //$('#faqpage').customScrollbar();
   });
 
   $('.menu-item ul li').click(function() {
