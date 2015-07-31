@@ -45,14 +45,14 @@ nav {
   text-align: left;
   font-size: 15;
   color: white;
-  background-color: #00994d;
+  background-color: #256bc4;
   padding: 10px;
   padding-top: 14px;
   padding-bottom: 14px;
   /* width: 100%; */
-  border-top: 1px solid #00331a;
-  border-bottom: 1px solid #00331a;
-  border-left: 1px solid #00331a;
+  border-top: 2px solid #FFF;
+  border-bottom: 2px solid #FFF;
+  border-left: 2px solid #FFF;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
