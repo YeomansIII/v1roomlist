@@ -310,9 +310,27 @@ nav {
 @media (min-width: 500px) {
   #sidebar {
     width: 100%;
+    height: auto;
   }
   #container {
     width: 100%;
+    height: auto;
+  }
+  #head {
+    height: 100px;
+  }
+  #add2room {
+    width: 52px;
+    height: 52px;
+    background-size: cover;
+  }
+  #addtiparrow {
+    top: 39px;
+    left: 95px;
+  }
+  #addtipbox {
+    top: 0;
+    left: 115px;
   }
 }
 
