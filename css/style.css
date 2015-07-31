@@ -307,11 +307,11 @@ nav {
 }
 
 
-@media (max-width: 500px) {
-  #container {
+@media (min-width: 500px) {
+  #sidebar {
     width: 100%;
   }
-  #sidebar {
+  #container {
     width: 100%;
   }
 }
