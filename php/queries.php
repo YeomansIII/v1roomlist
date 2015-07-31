@@ -34,7 +34,6 @@ function getRoomNumbers() {
 
 function getTable() {
     $building = $_POST['building'];
-		echo 'Building Name: ' . $building;
     $query = "SELECT * FROM ".$building." ORDER BY floor";
 		$result = execute_query($query);
 
@@ -59,8 +58,6 @@ try {
 } catch(PDOException $e) {
     echo 'ERROR: ' . $e->getMessage();
 }
-
-echo 'Inside Query';
 
 //addToFloor();
 if(isset($_POST['action']) && !empty($_POST['action'])) {
