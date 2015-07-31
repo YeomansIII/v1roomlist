@@ -224,6 +224,7 @@ nav {
 }
 .roomtable {
   width: 80%;
+  text-align: center;
   background: rgb(255, 255, 255);
   background: rgba(255, 255, 255, 0.8);
 }
@@ -231,8 +232,11 @@ nav {
   border: 1px solid black;
   border-collapse: collapse;
 }
-.bedCol {
-  width: 19em;
+#floorCol {
+  width: 5em;
+}
+#nameCol {
+  width: 20em;
 }
 .overview h2 {
   color: white;
