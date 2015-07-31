@@ -45,7 +45,7 @@
             <!-- <div id="class1" class="menu-item">
                 <div id="faqbtn">FAQ</div>
             </div> -->
-            <div id="class2" class="menu-item">
+            <div id="class1" class="menu-item">
                 <div>Class of 2019</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
                     <li>The Commons</li>
@@ -65,7 +65,7 @@
                     <li>Whitney Village</li>
                 </ul>
             </div>
-            <div id="class3" class="menu-item">
+            <div id="class2" class="menu-item">
                 <div>Tools</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
                     <li>Submit a Bug</li>
