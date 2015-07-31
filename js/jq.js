@@ -63,65 +63,47 @@ $(document).ready(function() {
       case "The Complex":
         getTable("The_Complex");
         break;
-      case "Brunswick":
-        getTable("Brunswick");
+      case "The Commons":
+        getTable("The_Commons");
         break;
-      case "Carroll":
-        getTable("Carroll");
+      case "The Crescent":
+        getTable("The_Crescent");
         break;
-      case "Dickenson":
-        getTable("Dickenson");
+      case "Dana English Hall":
+        getTable("Dana_English_Hall");
         break;
-      case "Essex":
-        getTable("Essex");
+      case "Eastview":
+        getTable("Eastview");
         break;
-      case "Franklin":
-        getTable("Franklin");
+      case "Irmagarde Tator Hall":
+        getTable("Irmagarde_Tator_Hall");
         break;
-      case "Grayson":
-        getTable("Grayson");
+      case "Larson":
+        getTable("Larson");
         break;
-      case "Adams":
-        getTable("Adams");
+      case "Ledges":
+        getTable("Ledges");
         break;
-      case "Harrison":
-        getTable("Harrison");
+      case "Mountainview":
+        getTable("Mountainview");
         break;
-      case "Jackson":
-        getTable("Jackson");
+      case "Perlroth":
+        getTable("Perlroth");
         break;
-      case "Jefferson":
-        getTable("Jefferson");
+      case "The Hill":
+        getTable("The_Hill");
         break;
-      case "Kennedy":
-        getTable("Kennedy");
+      case "Troup":
+        getTable("Troup");
         break;
-      case "Lincoln":
-        getTable("Lincoln");
+      case "Village":
+        getTable("Village");
         break;
-      case "Madison":
-        getTable("Madison");
+      case "Westview":
+        getTable("Westview");
         break;
-      case "Monroe":
-        getTable("Monroe");
-        break;
-      case "Roosevelt":
-        getTable("Roosevelt");
-        break;
-      case "Truman":
-        getTable("Truman");
-        break;
-      case "Washington":
-        getTable("Washington");
-        break;
-      case "Wilson":
-        getTable("Wilson");
-        break;
-      case "Commonwealth":
-        getTable("Commonwealth");
-        break;
-      case "Dominion":
-        getTable("Dominion");
+      case "Whitney Village":
+        getTable("Whitney_Village");
         break;
 
       case "Submit a Bug":

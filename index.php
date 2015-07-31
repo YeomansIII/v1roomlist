@@ -48,27 +48,21 @@
             <div id="class2" class="menu-item">
                 <div>Class of 2019</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
+                    <li>The Commons</li>
                     <li>The Complex</li>
-                    <li>Brunswick</li>
-                    <li>Carroll</li>
-                    <li>Dickenson</li>
-                    <li>Essex</li>
-                    <li>Franklin</li>
-                    <li>Grayson</li>
-                    <li>Adams</li>
-                    <li>Harrison</li>
-                    <li>Jackson</li>
-                    <li>Jefferson</li>
-                    <li>Kennedy</li>
-                    <li>Lincoln</li>
-                    <li>Madison</li>
-                    <li>Monroe</li>
-                    <li>Roosevelt</li>
-                    <li>Truman</li>
-                    <li>Washington</li>
-                    <li>Wilson</li>
-                    <li>Commonwealth</li>
-                    <li>Dominion</li>
+                    <li>The Crescent</li>
+                    <li>Dana English Hall</li>
+                    <li>Eastview</li>
+                    <li>Irmagarde Tator Hall</li>
+                    <li>Larson</li>
+                    <li>Ledges</li>
+                    <li>Mountainview</li>
+                    <li>Perlroth</li>
+                    <li>The Hill</li>
+                    <li>Troup</li>
+                    <li>Village</li>
+                    <li>Westview</li>
+                    <li>Whitney Village</li>
                 </ul>
             </div>
             <div id="class3" class="menu-item">
@@ -79,16 +73,16 @@
                 </ul>
             </div>
             <div id="boxad">
-<!-- RoomPage Box -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- RoomPage Box -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:234px;height:60px"
-     data-ad-client="ca-pub-8405070462080102"
-     data-ad-slot="8107136770"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+          <!-- RoomPage Box -->
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- RoomPage Box -->
+          <ins class="adsbygoogle"
+               style="display:inline-block;width:234px;height:60px"
+               data-ad-client="ca-pub-8405070462080102"
+               data-ad-slot="8107136770"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
         </div>
         </nav>
       </div>
