@@ -25,7 +25,7 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 <link rel="shortcut icon" href="../favicon.ico">
-    <title>GMU RoomList</title>
+    <title>QU RoomList</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="keywords" content="dorm,room,university,college,class,school" />
     <meta name="description" content="RoomList is a website where you can see who else is living on your floor and in your building!" />
@@ -179,7 +179,7 @@
       </div>
       <div id="sidebar">
         <h2>
-          GMU RoomList
+          QU RoomList
         </h2>
         <nav>
             <div id="class0" class="menu-item">
