@@ -189,7 +189,7 @@
                 <div id="faqbtn">FAQ</div> <!-- colored bar -->
             </div>
             <div id="class2" class="menu-item">
-                <div>Class of 2018</div> <!-- colored bar -->
+                <div>Class of 2019</div> <!-- colored bar -->
                 <ul> <!-- expanding white area -->
                     <li>The Complex</li>
                     <li>Brunswick</li>
