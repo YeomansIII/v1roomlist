@@ -15,8 +15,6 @@ function addToFloor() {
 		$floor = $_POST['floor'];
 		$building = $_POST['building'];
 
-		echo "".$name." ".$floor." ".$building;
-
 		$query = "INSERT INTO ".$building." (floor, name) VALUES(:floor, :name)";
 		$stmt = $conn->prepare($query);
 	    $stmt->execute(array(':floor' => $floor, ':name' => $name));

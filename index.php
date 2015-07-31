@@ -34,6 +34,64 @@
   </head>
   <body>
     <div id="main">
+      <div id="sidebar">
+        <h2>
+          QU RoomList
+        </h2>
+        <nav>
+            <div id="class0" class="menu-item">
+                <div id="homebtn">Home</div> <!-- colored bar -->
+            </div>
+            <div id="class1" class="menu-item">
+                <div id="faqbtn">FAQ</div> <!-- colored bar -->
+            </div>
+            <div id="class2" class="menu-item">
+                <div>Class of 2019</div> <!-- colored bar -->
+                <ul> <!-- expanding white area -->
+                    <li>The Complex</li>
+                    <li>Brunswick</li>
+                    <li>Carroll</li>
+                    <li>Dickenson</li>
+                    <li>Essex</li>
+                    <li>Franklin</li>
+                    <li>Grayson</li>
+                    <li>Adams</li>
+                    <li>Harrison</li>
+                    <li>Jackson</li>
+                    <li>Jefferson</li>
+                    <li>Kennedy</li>
+                    <li>Lincoln</li>
+                    <li>Madison</li>
+                    <li>Monroe</li>
+                    <li>Roosevelt</li>
+                    <li>Truman</li>
+                    <li>Washington</li>
+                    <li>Wilson</li>
+                    <li>Commonwealth</li>
+                    <li>Dominion</li>
+                </ul>
+            </div>
+            <div id="class3" class="menu-item">
+                <div>Tools</div> <!-- colored bar -->
+                <ul> <!-- expanding white area -->
+                    <li>Submit a Bug</li>
+                    <li>Request a Feature</li>
+                </ul>
+            </div>
+            <div id="boxad">
+<!-- RoomPage Box -->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- RoomPage Box -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:234px;height:60px"
+     data-ad-client="ca-pub-8405070462080102"
+     data-ad-slot="8107136770"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+        </div>
+        </nav>
+      </div>
       <div id="container">
         <div id="head">
           <div id="rHead">
@@ -176,64 +234,6 @@
             <iframe src="https://docs.google.com/forms/d/1i9EAO3jzRMixUR7Qb0-WjMc80WQgMARMfwmIIQaAAfY/viewform?embedded=true?hl=en" width="auto" height="auto" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
 
-      </div>
-      <div id="sidebar">
-        <h2>
-          QU RoomList
-        </h2>
-        <nav>
-            <div id="class0" class="menu-item">
-                <div id="homebtn">Home</div> <!-- colored bar -->
-            </div>
-            <div id="class1" class="menu-item">
-                <div id="faqbtn">FAQ</div> <!-- colored bar -->
-            </div>
-            <div id="class2" class="menu-item">
-                <div>Class of 2019</div> <!-- colored bar -->
-                <ul> <!-- expanding white area -->
-                    <li>The Complex</li>
-                    <li>Brunswick</li>
-                    <li>Carroll</li>
-                    <li>Dickenson</li>
-                    <li>Essex</li>
-                    <li>Franklin</li>
-                    <li>Grayson</li>
-                    <li>Adams</li>
-                    <li>Harrison</li>
-                    <li>Jackson</li>
-                    <li>Jefferson</li>
-                    <li>Kennedy</li>
-                    <li>Lincoln</li>
-                    <li>Madison</li>
-                    <li>Monroe</li>
-                    <li>Roosevelt</li>
-                    <li>Truman</li>
-                    <li>Washington</li>
-                    <li>Wilson</li>
-                    <li>Commonwealth</li>
-                    <li>Dominion</li>
-                </ul>
-            </div>
-            <div id="class3" class="menu-item">
-                <div>Tools</div> <!-- colored bar -->
-                <ul> <!-- expanding white area -->
-                    <li>Submit a Bug</li>
-                    <li>Request a Feature</li>
-                </ul>
-            </div>
-            <div id="boxad">
-<!-- RoomPage Box -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- RoomPage Box -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:234px;height:60px"
-     data-ad-client="ca-pub-8405070462080102"
-     data-ad-slot="8107136770"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-        </div>
-        </nav>
       </div>
     </div>
 
