@@ -40,13 +40,15 @@ function getTable() {
     $query = "SELECT * FROM ".$building." ORDER BY floor";
 		$result = execute_query($query);
 
-    echo '<h2>'.$building.'</h2> <h4 id="floorplans">Floorplans: <a href="http://housing.gmu.edu/halls/traditional/upload/Commons2.swf">Commons</a>  <a href="http://housing.gmu.edu/halls/traditional/upload/Presidents_Park_CS5_v2-31.swf">Presidents Park</a>  <a href="http://housing.gmu.edu/halls/suites/upload/Dominion-and-Commonwealth.swf">CO-DO</a></h4><table class="roomtable">
+		$buildingSpace = str_replace('_', ' ', $building);
+
+    echo '<h2>'.$buildingSpace.'</h2> <table class="roomtable">
                 <tr>
-                    <th id="floorCol">Floor</th>
+								<th id="floorCol">Floor</th><th id="nameCol">Name</th>
                 </tr>';
 
 	while($row = $result->fetch(PDO::FETCH_OBJ)) {
-	    echo "<tr> <td>".$row->name."</td> <td>".$row->floor."</td> </tr>";
+	    echo "<tr> <td>".$row->floor."</td> <td>".$row->name."</td> </tr>";
 	}
 	echo "</table>";
 }
