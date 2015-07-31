@@ -239,7 +239,7 @@ nav {
 #nameCol {
   width: 20em;
 }
-.overview h2 {
+#table h2 {
   color: white;
   text-shadow: -2px 2px black;
 }
